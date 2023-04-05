@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+
+@media (max-width: 800px) {
+    
+    #sessao-0, #sessao-1, #sessao-2, #sessao-3, #sessao-4, #sessao-5, #sessao-6 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;      
+    }
+
+    #sessao-0 #logo-principal {
+        width: 400px;
+    }
+
+    .celular {
+      margin-bottom: 30px;
+    }
+
+    .texto p {
+       font-size: 20px;       
+       text-align: start;       
+    }
+
+    #texto-0 h1 {
+        margin: 0;
+    }
+
+    #texto-7 h1, #texto-8 h1, #texto-9 h1, #texto-10 h1 {
+        font-size: 3rem;
+    }
+
+    #texto-0, #texto-1, #texto-2, #texto-3, #texto-4, #texto-5, #texto-6, #texto-7, #texto-9, #texto-10 {
+        padding: 0;
+        margin: 15px;
+    }
+
+    #celular-cadastro, 
+    #celular-barbeiro,
+    #celular-servico,
+    #celular-data,
+    #celular-agendado {
+        width: 350px;
+        margin: 0;
+    }
+
+    #logo-siseven {
+        width: 500px;
+    }
+    
+    .imagens-celular {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #sessao-0 #texto-0{
+        order: 1;
+    }
+
+    #sessao-1 #celular-cadastro {                
+        margin: 0;
+    }
+
+    #sessao-2 #celular-barbeiro {
+        margin-top: 30px;
+    }
+
+    
+    #sessao-3 #celular-servico {
+        width: 220px;
+        order: 1;
+        margin: 0;
+    }
+
+    #sessao-4 #celular-data {
+        width: 400px;
+        margin: 0;
+    }
+
+    #sessao-5 #celular-agendado {
+        width: 250px;
+        order: 1;
+        margin: 0;
+    }
+
+    #rodape #logo-siseven-footer {
+        width: 200px;
+    }
+
+    #sessao-6 #celular-barbeiro {
+        margin: 0;
+    }
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 8rem;
+}
+
+#texto-0 h1 {
+    font-family: 'Panfleta Stencil', sans-serif;  
+    font-size: rem;                                                  
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;  
+    padding: 40px;
+    text-align: center;  
+}
+
+#texto-3 {
+    margin-top: 70px;
+}
+
+.lista-nav {
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: #e5dece;    
+}
+
+.lista-nav a {
+    color: #212529;
+}
+
+#logo-suagendabarber {
+    width: 150px;
+}
+
+#logo-siseven-footer {
+    width: 225px;
+}
+
+#logo-principal {
+    width: 500px;
+}
+
+#redes-sociais {    
+    margin-left: auto;
+    display: flex;
+
+}
+
+#instagram, #whatsapp {
+    width: 35px;
+    margin-left: 25px;
+}
+
+#email {
+    width: 42px;
+    margin-left: 25px;
+}
+
+#celular-cadastro {
+    margin: 30px 20px 0 50px;
+}
+
+#celular-barbeiro {
+   margin: 100px 50px 10px 20px; 
+}
+
+#celular-servico {
+    margin: 160px 20px 0 50px;
+}
+
+#celular-data {
+    margin: 30px 50px 10px 20px;
+}
+
+#celular-agendado {
+    margin: 100px 20px 10px 50px;
+}
+
+#sessao-0 {
+    background-image: linear-gradient(#ffffff, #e5dece);
+    display: flex;    
+    align-items: center;
+}
+
+#sessao-1 {
+    background-color: #e5dece;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;   
+    align-items: center;    
+}
+
+#sessao-2 {
+    background-image: url(imagens/background-2.png);     
+    background-position: center top;   
+    display: flex;      
+}
+
+#sessao-3 {
+    background-image: url(imagens/background-3.png);   
+    display: flex;       
+}
+
+#sessao-4 {
+    background-image: linear-gradient(#e5dece, #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#sessao-5 {
+    background-image: linear-gradient(#ffffff,#e5dece );
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+#sessao-6 {
+    background-image: url(imagens/background-4.png);    
+    display: flex;
+}
+
+#sessao-7 {
+    background-image: url(imagens/background-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;    
+}
+
+#sessao-8 {
+    background-image: url(imagens/background-6.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sessao-9 {
+    background-image: linear-gradient(#ffffff, #80808052, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sessao-10 {
+    background-image: url(imagens/background-7.png);
+    display: flex;
+}
+
+#sessao-7 p, #sessao-7 h1{
+    color: #ffffff;
+}
+
+#sessao-7 p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#texto-6 h1 {
+    padding: 22px;
+    border: 0px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #284474;
+    margin: 15px;
+}
+
+#teste-gratis {
+    padding: 15px;
+    border: 0px;
+    border-radius: 15px;    
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    background-color: #e5dece;
+    margin: 15px;
+}
+
+.accordion-button {
+    background-color: #CFE2FF;
+    color: #212529;    
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 20px;   
+    margin-bottom: 10px;
+}
+
+.accordion-body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#imagem-empresa {
+    margin: 0;
+}
+
+#copyright {
+    font-size: 1rem;
+}
+
+
+
+
+
+
